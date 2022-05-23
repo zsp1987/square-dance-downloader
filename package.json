@@ -1,0 +1,25 @@
+{
+  "name": "square-dance-downloader",
+  "version": "1.0.0",
+  "description": "A Downloader for your mother's square dance.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+     "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Shaopeng Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^18.2.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.9"
+  }
+}
